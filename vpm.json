@@ -1,0 +1,56 @@
+﻿{
+  "name": "lilxyzw-basis",
+  "id": "io.github.lilxyzw.vpm-basis",
+  "author": "lilxyzw",
+  "url": "https://lilxyzw.github.io/vpm-repos-basis/vpm.json",
+  "packages": {
+    "jp.lilxyzw.basispatcher": {
+      "versions": {
+        "0.1.0": {
+          "name": "jp.lilxyzw.basispatcher",
+          "version": "0.1.0",
+          "displayName": "lilBasisPatcher",
+          "description": "The core script of my Basis plugin.",
+          "license": "MIT",
+          "repo": "https://lilxyzw.github.io/vpm-repos-basis/vpm.json",
+          "url": "https://github.com/lilxyzw/lilBasisPatcher/releases/download/0.1.0/jp.lilxyzw.basispatcher-0.1.0.zip?",
+          "zipSHA256": "495dcd18678332e1b4a7754c36d3ed1c4295537dde003a0c5ffad569aee6fd2a"
+        }
+      }
+    },
+    "jp.lilxyzw.emock": {
+      "versions": {
+        "0.2.0": {
+          "name": "jp.lilxyzw.emock",
+          "version": "0.2.0",
+          "displayName": "Emock",
+          "description": "Mock animator controller for controlling the avatar's facial expressions.",
+          "license": "MIT",
+          "repo": "https://lilxyzw.github.io/vpm-repos-basis/vpm.json",
+          "vpmDependencies": {
+            "jp.lilxyzw.basispatcher": "^0.1.0"
+          },
+          "url": "https://github.com/lilxyzw/Emock/releases/download/0.2.0/jp.lilxyzw.emock-0.2.0.zip?",
+          "zipSHA256": "687a3edf2baa4325ebd27dad2d88f5b954a16e59e1912af6dc942df846bf93e2"
+        }
+      }
+    },
+    "jp.lilxyzw.facecamera": {
+      "versions": {
+        "0.1.0": {
+          "name": "jp.lilxyzw.facecamera",
+          "version": "0.1.0",
+          "displayName": "FaceCamera",
+          "description": "Camera for checking the avatar's facial expressions.",
+          "license": "MIT",
+          "repo": "https://lilxyzw.github.io/vpm-repos-basis/vpm.json",
+          "vpmDependencies": {
+            "jp.lilxyzw.basispatcher": "^0.1.0"
+          },
+          "url": "https://github.com/lilxyzw/FaceCamera/releases/download/0.1.0/jp.lilxyzw.facecamera-0.1.0.zip?",
+          "zipSHA256": "ba72346a73442834a6d59a09a90da6d99fb17b6d880e8adbad3d02cd224b4efc"
+        }
+      }
+    }
+  }
+}
