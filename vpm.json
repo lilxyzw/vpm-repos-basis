@@ -6,6 +6,16 @@
   "packages": {
     "jp.lilxyzw.basispatcher": {
       "versions": {
+        "0.2.0": {
+          "name": "jp.lilxyzw.basispatcher",
+          "version": "0.2.0",
+          "displayName": "lilBasisPatcher",
+          "description": "The core script of my Basis plugin.",
+          "license": "MIT",
+          "repo": "https://lilxyzw.github.io/vpm-repos-basis/vpm.json",
+          "url": "https://github.com/lilxyzw/lilBasisPatcher/releases/download/0.2.0/jp.lilxyzw.basispatcher-0.2.0.zip?",
+          "zipSHA256": "92bb40a40f2b8f05bc8d081ee5498f9faa71c3bf4b3a056dd44da075df8cbe01"
+        },
         "0.1.0": {
           "name": "jp.lilxyzw.basispatcher",
           "version": "0.1.0",
