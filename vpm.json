@@ -47,6 +47,19 @@
     },
     "jp.lilxyzw.facecamera": {
       "versions": {
+        "0.1.1": {
+          "name": "jp.lilxyzw.facecamera",
+          "version": "0.1.1",
+          "displayName": "FaceCamera",
+          "description": "Camera for checking the avatar's facial expressions.",
+          "license": "MIT",
+          "repo": "https://lilxyzw.github.io/vpm-repos-basis/vpm.json",
+          "vpmDependencies": {
+            "jp.lilxyzw.basispatcher": "^0.1.0"
+          },
+          "url": "https://github.com/lilxyzw/FaceCamera/releases/download/0.1.1/jp.lilxyzw.facecamera-0.1.1.zip?",
+          "zipSHA256": "cf491eba7775ba5ed2496172a4842b744832d96f3e7641c3b37e2712a658f9c2"
+        },
         "0.1.0": {
           "name": "jp.lilxyzw.facecamera",
           "version": "0.1.0",
